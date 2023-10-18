@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class PlayerMotor : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private CharacterController controller;
+    private Vector3 playerVelocity;
+    public float speed = 5f;
     void Start()
     {
+        controller= GetComponent<>
         
     }
 
